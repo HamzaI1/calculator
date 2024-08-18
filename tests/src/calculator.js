@@ -35,6 +35,7 @@ numbers.forEach(number => {
   });
 });
 
+
 const operators = document.querySelectorAll('.js-operator');
 operators.forEach(operator => {
   operator.addEventListener('click', () => {
@@ -69,6 +70,7 @@ operators.forEach(operator => {
   });
 });
 
+
 const clear = document.querySelector('.js-clear');
 clear.addEventListener('click', () => {
   const screen = document.querySelector('.js-screen');
@@ -79,6 +81,7 @@ clear.addEventListener('click', () => {
   isoperatorClicked = false;
   isNegativeAllowed = true;
 });
+
 
 const calculate = document.querySelector('.js-calculate');
 calculate.addEventListener('click', () => {
